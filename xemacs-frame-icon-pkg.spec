@@ -2,12 +2,12 @@ Summary:	Set up mode-specific icons for each frame under XEmacs
 Summary(pl):	Ustawianie ikon specyficznych dla trybu dla ka¿dej ramki XEmacsa
 Name:		xemacs-frame-icon-pkg
 %define 	srcname	frame-icon
-Version:	1.09
-Release:	2
+Version:	1.11
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	91922e43447422f175065428367fb00b
+# Source0-md5:	6fbd58bc7f37328aaf31b420c9a2891f
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
