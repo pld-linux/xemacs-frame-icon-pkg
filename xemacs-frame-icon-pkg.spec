@@ -2,7 +2,7 @@ Summary:	Set up mode-specific icons for each frame under XEmacs
 Summary(pl):	Set up mode-specific icons for each frame under XEmacs
 Name:		xemacs-frame-icon-pkg
 %define 	srcname	frame-icon
-Version:	1.08
+Version:	1.09
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
