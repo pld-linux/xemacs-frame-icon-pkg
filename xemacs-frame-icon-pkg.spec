@@ -3,7 +3,7 @@ Summary(pl):	Ustawianie ikon specyficznych dla trybu dla ka¿dej ramki XEmacsa
 Name:		xemacs-frame-icon-pkg
 %define 	srcname	frame-icon
 Version:	1.11
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
