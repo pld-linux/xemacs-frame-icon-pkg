@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Set up mode-specific icons for each frame under XEmacs.
 
-%description -l pl 
+%description -l pl
 Ustawianie ikon specyficznych dla trybu dla ka¿dej ramki XEmacsa.
 
 %prep
@@ -28,14 +28,14 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/frame-icon/ChangeLog 
+gzip -9nf lisp/frame-icon/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/frame-icon/ChangeLog.gz 
+%doc lisp/frame-icon/ChangeLog.gz
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
