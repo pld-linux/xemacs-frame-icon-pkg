@@ -1,5 +1,5 @@
 Summary:	Set up mode-specific icons for each frame under XEmacs
-Summary(pl.UTF-8):   Ustawianie ikon specyficznych dla trybu dla każdej ramki XEmacsa
+Summary(pl.UTF-8):	Ustawianie ikon specyficznych dla trybu dla każdej ramki XEmacsa
 Name:		xemacs-frame-icon-pkg
 %define 	srcname	frame-icon
 Version:	1.11
